@@ -1,0 +1,13 @@
+@use "util" as u;
+.component {
+  width: u.rem(450);
+  height: u.rem(697);
+  border-radius: u.rem(20);
+  overflow: hidden;
+  background-color: var(--very-pale-blue);
+  @include u.breakpoint-down(small) {
+    margin: rem(20);
+  }
+  &__img img {
+  }
+}
