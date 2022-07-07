@@ -6,8 +6,29 @@
   overflow: hidden;
   background-color: var(--very-pale-blue);
   @include u.breakpoint-down(small) {
-    margin: rem(20);
+    margin: u.rem(20);
   }
   &__img img {
+  }
+
+  &__description {
+    margin: u.rem(48);
+    text-align: center;
+  }
+  .description__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .price__plan {
+    display: flex;
+  }
+  .plan__text {
+  }
+  .plan__price {
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
   }
 }
