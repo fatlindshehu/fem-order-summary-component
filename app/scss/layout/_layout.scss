@@ -3,7 +3,13 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: var(--very-pale-blue);
   background-image: url(/app/images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+}
+@include u.breakpoint-down(small) {
+  margin: u.rem(20);
+  height: u.rem(497);
+  width: u.rem(350);
 }
