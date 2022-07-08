@@ -10,6 +10,4 @@ main {
 }
 @include u.breakpoint-down(small) {
   margin: u.rem(20);
-  height: u.rem(497);
-  width: u.rem(350);
 }
